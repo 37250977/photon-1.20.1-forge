@@ -1,0 +1,33 @@
+# 构建输出
+build/
+.gradle/
+.kotlin/
+out/
+classes/
+bin/
+
+# 运行目录
+run/
+runs/
+run-data/
+
+# 日志与本地缓存
+logs/
+*.log
+*.class
+*.DS_Store
+Thumbs.db
+
+# IDE / 编辑器
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+.metadata
+.vscode/
+
+# 本地依赖 jar（说明见 libs/README.md，jar 不进版本库）
+libs/*.jar

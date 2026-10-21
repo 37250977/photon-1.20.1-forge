@@ -1,0 +1,16 @@
+# 统一行尾：仓库内一律 LF，检出时由各平台自行处理
+* text=auto eol=lf
+
+# 明确二进制，避免被当文本处理
+*.png binary
+*.jpg binary
+*.ogg binary
+*.ttf binary
+*.jar binary
+*.nbt binary
+*.glb binary
+*.zip binary
+
+# Windows 脚本保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
